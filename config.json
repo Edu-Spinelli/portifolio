@@ -1,0 +1,55 @@
+{
+  "ascii": [
+    "███████╗██████╗ ██╗███╗   ██╗███████╗██╗     ██╗     ██╗",
+    "██╔════╝██╔══██╗██║████╗  ██║██╔════╝██║     ██║     ██║",
+    "███████╗██████╔╝██║██╔██╗ ██║█████╗  ██║     ██║     ██║",
+    "╚════██║██╔═══╝ ██║██║╚██╗██║██╔══╝  ██║     ██║     ██║",
+    "███████║██║     ██║██║ ╚████║███████╗███████╗███████╗██║",
+    "╚══════╝╚═╝     ╚═╝╚═╝  ╚═══╝╚══════╝╚══════╝╚══════╝╚═╝"
+  ],
+  "title": "WebShell",
+  "username": "spinelli",
+  "hostname": "webshell",
+  "password": "1234",
+  "repoLink": "https://github.com/Edu-Spinelli",
+  "social": {
+    "email": "eduardo.spinelli@estudante.ufscar.br",
+    "github": "Edu-Spinelli",
+    "linkedin": "eduardo-spinelli-a309011a1/"
+  },
+  "aboutGreeting": ["Hi, my name is Eduardo, i'm a Computer Science student from UFSCar.",
+
+   "I was State Champion of WordSkills São Paulo 2019, and participated in the Festo Mechatronica Competition 2019.",
+   "-📖 Studing about Web development, using python frameworks (Django, Flask).",
+   "-🔒 Enthusiast in the area of ​​information security (cryptography)."],
+  "projects": [
+    [
+      "QuestIO",
+      "um portal para o aprendizado de Lógica Digital",
+      "https://github.com/QuestIO42"
+    ]
+  ],
+  "colors": {
+    "background": "#0C0623",
+    "foreground": "#F8DDE5",
+    "banner": "#FF9951",
+    "border": {
+      "visible": true,
+      "color": "#FFADE2"
+    },
+    "prompt": {
+      "default": "#A5A7A7",
+      "user": "#FE6BC9",
+      "host": "#70FDFF",
+      "input": "#FF7685"
+    },
+    "link": {
+      "text": "#B6AAEE",
+      "highlightColor": "#FFADE2",
+      "highlightText": "#0C0623"
+    },
+    "commands": {
+      "textColor": "#228B22"
+    }
+  }
+}

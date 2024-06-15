@@ -234,7 +234,7 @@ function commandHandler(input : string) {
       }
 
       if (isSudo) {
-        writeLines(["Usage: <span class='command'>'rm -rf &lt;dir&gt;'</span>", "<br>"]);
+        writeLines(["Usage: <span class='command'>'rm -rf &lt;dir&gt;'</span>", ]);
       } else {
         writeLines(["Permission not granted.", "<br>"])
       }
@@ -257,14 +257,14 @@ function commandHandler(input : string) {
       break;
     case 'ls':
       if(bareMode) {
-        writeLines(["", "<br>"])
+        writeLines([""])
         break;
       }
 
       if (isSudo) {
-        writeLines(["src", "<br>"]);
+        writeLines(["src"]);
       } else {
-        writeLines(["Permission not granted.", "<br>"]);
+        writeLines(["Permission not granted."]);
       }
       break;
     default:
@@ -318,7 +318,7 @@ function passwordHandler() {
 
   if (PASSWORD_INPUT.value === SUDO_PASSWORD) {
     if (!mutWriteLines || !mutWriteLines.parentNode) return
-    writeLines(["<br>", "PERMISSION GRANTED.", "Try <span class='command'>'rm -rf'</span>", "<br>"])
+    writeLines(["PERMISSION GRANTED.", "Try <span class='command'>'rm -rf'</span>", ])
     revertPasswordChanges();
     isSudo = true;
     return

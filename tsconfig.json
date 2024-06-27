@@ -22,11 +22,6 @@
     "noFallthroughCasesInSwitch": true,
     "paths": {
       "@/*": ["src/*"],
-    "video/mp4": {
-    "source": "iana",
-    "compressible": false,
-    "extensions": ["mp4","mp4v","mpg4"]
-    }    
     }
   },
   "include": [
